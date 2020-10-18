@@ -1,0 +1,320 @@
+.whole{
+    overflow: scroll;
+    
+    height: 100%;
+}
+.container{
+    overflow: visible;
+}
+.hero{
+    box-sizing: border-box;
+    color: rgb(44, 45, 72);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 470px;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
+@media screen and (min-width: 1024px){
+    
+    .hero {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+        padding: 35px 27px 100px;
+        min-height: calc(100vh - 65px);
+    }
+}
+.hero-Text{
+    width: 100%;
+}
+@media screen and (min-width: 512px){
+
+    .hero-Text{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px){
+    
+    .hero-Text {
+        box-sizing: border-box;
+        padding-right: 27px;
+        width: 681px;
+        text-align: left;
+    }
+}
+.hero-Title{
+    font: 800 48px / 50px 'Nunito', sans-serif;
+    margin: 0px 0px 26px;
+    overflow: visible;
+    /* -webkit-text-fill-color: #ECEBF1; 
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #191926; */
+}
+@media screen and (min-width: 1024px){
+    
+    .hero-Title {
+        font: 800 86px / 90px 'Nunito', sans-serif;
+        margin-bottom: 20px;
+    }
+}
+.hero-Subtitle{
+    font: 400 18px / 26px "Nunito", sans-serif;
+    margin: 0px;
+}
+@media screen and (min-width: 1024px){
+    
+    .hero-Subtitle {
+        font: 400 20px / 36px "Nunito", sans-serif;
+        max-width: 518px;
+    }
+}
+
+.hero-Image{
+    display: block;
+    order: -1;
+    overflow: hidden;
+    margin: 0px auto;
+    max-width: 388px;
+    width: 100%;
+}
+@media screen and (min-width: 1024px){
+    
+    .hero-Image {
+        max-width: 518px;
+        margin: 0px;
+        max-width: 100%;
+        order: 0;
+        width: 627px;
+    }
+}
+.hero-ImageHolder{
+    height: 0px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.hero-Video{
+    display: block;
+    height: 100%;
+    left: 0px;
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.hero-Picture{
+    display: block;
+    height: 100%;
+    left: 0px;
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+
+}
+.hero-picture-Image{
+    display: block;
+    height: 100%;
+    left: 0px;
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+
+}
+.works-Section{
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    display: block;
+    align-content: center;
+    overflow: visible;
+}
+
+.section-Head-Box {
+    box-sizing: border-box;
+    margin: 0px -22px 13px;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .section-Head-Boxy {
+        margin-bottom: 35px;
+    }
+}
+@media screen and (min-width: 1024px){
+
+    .section-Head-Box {
+        margin: 0px -27px 33px;
+    }
+}
+
+.section-Head-Title {
+    color: rgb(44, 45, 72);
+    font: 800 28px / 34px 'Nunito', sans-serif;
+    margin: 0px 0px 8px;
+    padding: 0px 22px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 512px){
+
+    .section-Head-Title {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px){
+    
+    .section-Head-Title {
+        padding: 0px 27px;
+        font: 800 35px / 39px 'Nunito', sans-serif;
+    }
+}
+
+
+.section-Head-Caption{
+    font: 400 18px / 26px 'Nunito', sans-serif;
+    margin: 0px 0px 27px;
+    padding: 0px 22px;
+}
+@media screen and (min-width: 512px){
+   
+    .section-Head-Caption {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .section-Head-Caption {
+        padding: 0px 27px;
+        font: 400 20px / 36px 'Nunito', sans-serif;
+    }
+}
+
+
+.cards-Holder {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0px -11px -16.5px;
+    padding: 0px;
+    padding-top: 30px;
+    overflow: visible;
+    
+}
+
+@media screen and (min-width: 1024px){
+   
+    .cards-Holder {
+        margin: 0px -13.5px -27px;
+    }
+}
+
+.scroll-Down{
+    margin-bottom: 24px;
+    margin-top: 64px;
+    text-align: center;
+}
+@media screen and (min-width: 1024px){
+   
+    .scroll-Down {
+        bottom: 36px;
+        left: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        position: absolute;
+        right: 0px;
+
+    }
+}
+
+.scroll-Button{
+    appearance: none;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid #ECEBF1;
+    box-sizing: border-box;
+    color: rgb(44, 45, 72);
+    cursor: pointer;
+    height: 48px;
+    margin: 0px auto;
+    opacity: 1;
+    outline-color: currentcolor;
+    position: relative;
+    transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s, border-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s, color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s, opacity 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    width: 48px;
+}
+@media screen and (min-width: 768px){
+   
+    .scroll-Button {
+        width: 60px;
+        height: 60px;
+
+    }
+}
+.scroll-Button::after{
+    background-color:#ECEBF1;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 50%;
+    margin: -24px;
+    padding: 0px;
+    
+    position: absolute;
+    top: 50%;
+    transform: scale(0);
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+    width: 48px;
+    z-index: -1;
+}
+@media screen and (min-width: 768px){
+
+    .scroll-Button::after {
+        width: 60px;
+        margin: -30px;
+        height: 60px;
+    }
+}
+
+.scroll-Link{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    color: rgb(44, 45, 72);
+    
+    border: 2px solid;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+.scroll-Link:hover{
+    background-color: rgb(77, 79, 124);
+}
+
+.scrollDown-SVG{
+    fill: currentcolor;
+    height: 8px;
+    width: 14px;
+}
+
+@media screen and (min-width: 768px){
+    
+    .scrollDown-SVG {
+        height: 7px;
+        width: 12px;
+    }
+}
+.head-img{
+    width: 100%;
+    height:auto;
+}

@@ -1,0 +1,433 @@
+
+
+.card-Holder {
+    box-sizing: border-box;
+    height: 341.5px;
+    margin: 0px;
+    padding: 0px 11px 16.5px;
+    width: 100%;
+    overflow: visible;
+    
+   
+
+}
+@media screen and (min-width: 360px){
+
+    .card-Holder {
+        height: 366.5px;
+    }
+}
+@media screen and (min-width: 650px){
+
+    .card-Holder {
+        height: 416.5px;
+    }
+}
+@media screen and (min-width: 650px){
+
+    .card-Holder {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1024px){
+
+    .card-Holder {
+        padding: 0px 13.5px 27px;
+    }
+}
+@media screen and (min-width: 1024px){
+
+    .card-Holder {
+        height: 466px;
+    }
+}
+@media screen and (min-width: 1024px){
+
+    .card-Holder {
+        width: 33.33%;
+    }
+}
+@media screen and (min-width: 1250px){
+
+    .card-Holder {
+        width: 25%;
+    }
+}
+.item-Card{
+    display: block;
+    height: 100%;
+    width: 100%;
+
+    overflow: visible;
+
+    
+}
+.card-Link{
+   
+        outline-color: rgb(44, 45, 72);
+        position: relative;
+        text-decoration: none;
+        z-index: 0;
+        -webkit-tap-highlight-color: transparent;
+  
+    
+        display: block;
+        height: 100%;
+        width: 100%;
+        overflow: visible;
+        transition: all 0.3s ease-in-out; 
+    
+}
+.card-Link:hover{
+    transform: scale(1.03);
+}
+
+.cardTop-Span{
+    height: 100%;
+    
+    display: block;
+    left: 0px;
+    perspective: 500px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background: rgba(159, 160, 197, 0.3);
+    border-radius: 15px;
+    overflow: visible;
+    transform: translate(5px, 15px) scaleY(0.96);
+
+}
+
+.cardTop-Span-Inner{
+    
+    border-radius: 15px;
+    bottom: 0px;
+    height: 95%;
+    
+    position: absolute;
+    right: 0px;
+    transform: translateZ(0px);
+    width: 100%;
+    z-index: 0;
+
+    transform: rotateX(0deg) scale(1) translateX(0px) translateY(0px);
+
+}
+.cardTop-Span-Inner:hover{
+
+   /*  transform: rotateX(0deg) scale(1.1) translateX(7px) translateY(7px); */
+
+
+}
+.cardMain-Span{
+    height: 97%;
+    transform: translateZ(0px);
+    display: block;
+    left: 0px;
+    perspective: 500px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    transform: translateY(10px);
+    overflow: visible;
+}
+.cardMain-Content{
+    transform: rotateX(0deg) scale(1) translateX(0px) translateY(0px);
+    transition: background 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s, border 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s, color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    background: #ECEBF1;
+    border: 1px solid #27283C;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: rgb(44, 45, 72);
+    outline: transparent solid 1px;
+    overflow: hidden;
+    padding: 0px 20px;
+    position: relative;
+    
+    height: 100%;
+    overflow: visible;
+   
+    z-index: 9999;
+}
+.card-Holder:hover .cardMain-Span{
+    transform: translate(-0px, -0px);
+    position: absolute;
+}
+.cardMain-Content:hover{
+    
+    background: #27283C;
+    border: 1px solid #191926;
+    color: #ECEBF1;
+    
+    animation-name: cardWig;
+    animation-duration: 0.3s; /* or: Xms */
+    animation-iteration-count: 1;
+    animation-direction: alternate; /* or: normal */
+    animation-timing-function: ease-in-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+    animation-fill-mode: forwards; /* or: backwards, both, none */
+    animation-delay: 0s; /* or: Xms */
+}
+
+@keyframes cardWig {
+    0%, 100% {
+        transform: rotate3d(0, 0, 0, 0deg);
+    }
+    30% {
+        transform: rotate3d(1, 0, 0, -5deg);
+    }
+  }
+
+.multi-Holder{
+    height: 66px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 66px;
+    pointer-events: none;
+}
+@media screen and (min-width: 360px){
+    
+    .multi-Holder {
+        width: 90px;
+    }
+}
+@media screen and (min-width: 360px){
+
+    .multi-Holder {
+        top: 30px;
+        right: 30px;
+        height: 90px;
+    }
+}
+@media screen and (min-width: 1024px){
+
+    .multi-Holder {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .multi-Holder {
+        height: 120px;
+    }
+}
+.smallSVG-Front{
+    color: rgb(44, 45, 72);
+    height: 0px;
+    padding-bottom: 100%;
+    stroke: rgb(44, 45, 72);
+    animation-delay: 0s;
+    display: block;
+    position: relative;
+}
+.smallFront-SVG{
+    height: 100%;
+    position: absolute;
+    display: block;
+    left: 0px;
+    stroke: inherit;
+    top: 0px;
+    width: 100%;
+}
+.smallSVGfront-Back{
+    font-size: 184.8px;
+    transform: translate(0%, 0%);
+    font: 800 60px / 0 'Nunito', sans-serif;
+    left: -50%;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    line-height: 1;
+}
+.cardMain-Content:hover .smallSVGfront-Back{
+    color: #191926;
+    stroke: 1px solid #191926;
+ 
+}
+.card-AnimHolder{
+    
+    display: block;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    width: 45%;
+}
+@media screen and (min-width: 650px){
+
+    .card-AnimHolder {
+        
+        display: block;
+        height: 100%;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-25%, -55%);
+        width: 60%;
+    }
+}
+@media screen and (min-width: 750px){
+
+    .card-AnimHolder {
+        
+    display: block;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-15%, -52%);
+    width: 50%;
+    }
+}
+@media screen and (min-width: 900px){
+
+    .card-AnimHolder {
+        animation-delay: 0.3s;
+        display: block;
+        height: 100%;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-0%, -60%);
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1024px){
+
+    .card-AnimHolder {
+        
+        display: block;
+        height: 100%;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-40%, -60%);
+        width: 80%;
+
+    }
+}
+
+@media screen and (min-width: 1250px){
+    .card-AnimHolder {
+        
+        display: block;
+        height: 100%;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -70%);
+        width: 100%;
+    }
+}
+.video-AnimWebP{
+    display: block;
+    height: auto;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    /* z-index: 10; */
+    
+}
+.card-Picture{
+    opacity: 0;
+    transition: opacity 0s linear 0.05s;
+    display: block;
+    height: auto;
+    
+    position: absolute;
+    width: 100%;
+}
+.cardTitle{
+    align-items: flex-end;
+    box-sizing: border-box;
+    display: flex;
+    font: 800 30px / 32px 'Nunito', sans-serif;
+    height: 50%;
+    justify-content: flex-start;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+
+}
+@media screen and (min-width: 360px){
+    .cardTitle {
+        font: 800 38px / 42px 'Nunito', sans-serif;
+        height: 55%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .cardTitle {
+        font: 800 35px / 39px 'Nunito', sans-serif;
+        height: 62%;
+    }
+}
+.cardTitle-Span{
+    align-items: flex-end;
+    box-sizing: border-box;
+    display: flex;
+    font: 800 30px / 32px 'Nunito', sans-serif;
+    height: 50%;
+    justify-content: flex-start;
+    margin: 0px;
+    width: 100%;
+    transform-origin: left bottom;
+    transform: scale(1);
+    overflow: hidden;
+    
+    -webkit-text-fill-color: #ECEBF1; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #191926;
+}
+.cardMain-Content:hover .cardTitle-Span{
+    -webkit-text-fill-color: #191926; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ECEBF1;
+}
+.card-Description{
+    box-sizing: border-box;
+    font: 400 18px / 26px 'Nunito', sans-serif;;
+    margin: 0px;
+    padding-top: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+@media screen and (min-width: 360px){
+    .card-Description {
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .card-Description {
+        padding-top: 8px;
+        font: 400 20px / 28px 'Nunito', sans-serif;
+    
+    }
+}
+.card-Arrow{
+    bottom: 22px;
+    color: #27283C;
+    fill: currentcolor;
+    height: 16px;
+    position: absolute;
+    width: 36px;
+    transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+
+}
+@media screen and (min-width: 1024px){
+    .card-Arrow {
+        bottom: 28px;
+    
+    }
+}
+.cardMain-Content:hover .card-Arrow{
+    color: #ECEBF1;
+    fill: currentcolor;
+    height: 16px;
+    position: absolute;
+    width: 40px;
+    transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}

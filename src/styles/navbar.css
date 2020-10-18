@@ -1,0 +1,59 @@
+.barContainer{
+    z-index: 300;
+    position: fixed;
+    bottom: 1.5rem;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    filter: drop-shadow(rgba(39, 40, 60, 0.12) 0px 1px 3px);
+    pointer-events: none;
+}
+.navBack{
+    -webkit-clip-path: inset(0px 0px 0px 0px round 1.5rem);
+    clip-path: inset(0px 0px 0px 0px round 1.5rem);
+    height: 2.75rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background: rgba(236, 235, 241, 0.98);
+    pointer-events: all;
+    border: 1px solid #27283C;
+}
+.navbar {
+    display: inline-flex;
+    padding: 0.25rem 0.3125rem;
+  }
+  
+  .navbar__link {
+    color: #27283C;
+    margin: 0px 0.25rem 0px 0px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.015em;
+    hyphens: none;
+    white-space: normal;
+    list-style: none;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 0.75rem;
+    height: 2.25rem;
+    border-radius: 1.25rem;
+    transition: color 0.1s ease-in-out 0s;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+  }
+  
+  .navbar__link:hover {
+    opacity: 0.8;
+    transition: opacity .2s ease-in-out;
+  }
+  
+  .navbar__link--active {
+    background-color: #27283C;
+    color: #ECEBF1;
+    transition: background-color .5s ease-in-out;
+  }

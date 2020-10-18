@@ -1,0 +1,87 @@
+.whole{
+    overflow: scroll;
+    
+    height: 100%;
+}
+.works-Section{
+    margin: 0px auto;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.section-Head-Box {
+    box-sizing: border-box;
+    margin: 0px -22px 43px;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .section-Head-Boxy {
+        margin-bottom: 75px;
+    }
+}
+@media screen and (min-width: 1024px){
+
+    .section-Head-Box {
+        margin: 0px -27px 93px;
+    }
+}
+
+.section-Head-Title {
+    color: rgb(44, 45, 72);
+    font: 800 28px / 34px "GT Super Display", serif;
+    margin: 0px 0px 8px;
+    padding: 0px 22px;
+}
+
+@media screen and (min-width: 512px){
+
+    .section-Head-Title {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1024px){
+    
+    .section-Head-Title {
+        padding: 0px 27px;
+        font: 800 35px / 39px "GT Super Display", serif;
+    }
+}
+
+
+.section-Head-Caption{
+    font: 400 18px / 26px "Google Sans", sans-serif;
+    margin: 0px 0px 27px;
+    padding: 0px 22px;
+}
+@media screen and (min-width: 512px){
+   
+    .section-Head-Caption {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .section-Head-Caption {
+        padding: 0px 27px;
+        font: 400 20px / 36px "Google Sans", sans-serif;
+    }
+}
+
+
+.cards-Holder {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0px -11px -16.5px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 1024px){
+   
+    .cards-Holder {
+        margin: 0px -13.5px -27px;
+    }
+}
