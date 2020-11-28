@@ -17,7 +17,7 @@ const Home = () => {
                 <picture className="hero-Picture">
                   <img className="hero-picture-Image" alt="hero Image" src="https://lh3.googleusercontent.com/yB_M4dpF-w-6_81TCd6KX6DWGq3UNpd_V9Zh5vdfK7vpXHd3AiASFKg_M82ET9sDHAZfR6A1JpIRCh8Ef-2CljV_h8acI_LQstxG7A=w590-e365"></img>
                 </picture>
-                <video className="hero-Video" autoPlay={true} loop={true} muted={true} poster="https://lh3.googleusercontent.com/EdrznbVa_EV1flSpEnA__oab0QpVW9h15iWP1BLOvVdwZ1ySw6JCQzYiu4eZA9f_FBHlIRsoURu5kjdOWhdunV0Ep7FIjc5QhPNc9Q=w1180-e365-rw-lo-l100"> <source type="video/webm" src="https://storage.googleapis.com/gweb-aiaz.appspot.com/animations/Masthead.webm"></source> </video>
+                <video className="hero-Video" autoPlay={true} loop={true} muted={true} > <source type="video/webm" src={require('../assets/imgs/portolioFlip.webm')}></source> </video>
               </div>
             </div>
             <div className="scroll-Down">

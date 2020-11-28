@@ -232,7 +232,7 @@
 .smallSVGfront-Back{
     font-size: 184.8px;
     transform: translate(0%, 0%);
-    font: 800 60px / 0 'Nunito', sans-serif;
+    font: 800 60px / 0 'Sniglet', cursive;
     left: -50%;
     text-align: center;
     text-transform: uppercase;
@@ -345,7 +345,7 @@
     align-items: flex-end;
     box-sizing: border-box;
     display: flex;
-    font: 800 30px / 32px 'Nunito', sans-serif;
+    font: 800 30px / 32px 'Sniglet', cursive;
     height: 50%;
     justify-content: flex-start;
     margin: 0px;
@@ -355,13 +355,13 @@
 }
 @media screen and (min-width: 360px){
     .cardTitle {
-        font: 800 38px / 42px 'Nunito', sans-serif;
+        font: 800 38px / 42px 'Sniglet', cursive;
         height: 55%;
     }
 }
 @media screen and (min-width: 1024px){
     .cardTitle {
-        font: 800 35px / 39px 'Nunito', sans-serif;
+        font: 800 35px / 39px 'Sniglet', cursive;
         height: 62%;
     }
 }
@@ -369,7 +369,7 @@
     align-items: flex-end;
     box-sizing: border-box;
     display: flex;
-    font: 800 30px / 32px 'Nunito', sans-serif;
+    font: 800 30px / 32px 'Sniglet', cursive;
     height: 50%;
     justify-content: flex-start;
     margin: 0px;
@@ -389,7 +389,7 @@
 }
 .card-Description{
     box-sizing: border-box;
-    font: 400 18px / 26px 'Nunito', sans-serif;;
+    font: 400 18px / 26px 'Sniglet', cursive;;
     margin: 0px;
     padding-top: 5px;
     width: 100%;
@@ -403,7 +403,7 @@
 @media screen and (min-width: 1024px){
     .card-Description {
         padding-top: 8px;
-        font: 400 20px / 28px 'Nunito', sans-serif;
+        font: 400 20px / 28px 'Sniglet', cursive;
     
     }
 }

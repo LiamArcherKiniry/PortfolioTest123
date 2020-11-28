@@ -220,10 +220,39 @@ const Story = () => {
             <div className="asset-grid-item">
               <div className="asset">
                 <div>
-                  <div className="asset-frame" style={{overflow: 'hidden'}}>
+                  <div className="asset-frame" style={{overflow: 'hidden', backgroundColor:'rgba(44, 45, 72, 0.5)'}}>
                     <div>
                       <div>
-                        <img style={{width: '100%'}} src={require('../assets/imgs/story/togethersketch.png')} alt="our notes written on a whiteboard"></img>
+                        <img style={{width: '100%'}} src={require('../assets/imgs/story/togethersketch.png')} alt="a sketch of users interacting with each other in the space"></img>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="section-container">
+            <div className="section-container-inner">
+              <div className="summary-box">
+                <div className="summary-description">
+                  <p>
+                    <span style={{fontWeight: 'bold'}}>Moodboarding / Design Inspiration:</span> What are universal stories, images, icons? What is our unifying theme?               
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div className="picture-section-container">
+          <div className="asset-grid">
+            <div className="asset-grid-item">
+              <div className="asset">
+                <div>
+                  <div className="asset-frame" style={{overflow: 'hidden', backgroundColor:'rgba(44, 45, 72, 0.5)'}}>
+                    <div>
+                      <div>
+                        <img style={{width: '100%'}} src={require('../assets/imgs/story/moodboard1.jpg')} alt="a moodboard showing images of silhouettes, paper puppets, and little red riding hood"></img>
                       </div>
                     </div>
                   </div>
@@ -238,60 +267,10 @@ const Story = () => {
           <div className="section-container">
             <div className="section-container-inner">
               <div className="summary-box">
-                <h2 className="summary-header">Low-Fidelity Prototype</h2>
+                <h2 className="summary-header">Design / Development</h2>
                 <div className="summary-description">
                   <p>
-                    We created a <span style={{fontWeight: 'bold'}}>Low-Fidelity Prototype</span> to begin ideating UX solutions to our users desires and concerns including privacy, connection, and complexity. This helped us to understand the basic UX and flow through the site and begin creating and testing interactions in a low stakes environment.            
-                  </p>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-          <div className="picture-section-container">
-          <div className="asset-grid">
-            <div className="asset-grid-item">
-              <div className="asset">
-                <div>
-                  <div className="asset-frame">
-                    <div>
-                      <div>
-                        <img style={{width: '100%'}} src={require('../assets/imgs/myConnect/m4LoFiPrototype.jpg')} alt="a flowchart of all of the components of our paper prototype"></img>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="picture-section-container">
-          <div className="asset-grid">
-            <div className="asset-grid-item">
-              <div className="asset">
-                <div>
-                  <div className="asset-frame">
-                    <div>
-                      <div>
-                        <img style={{width: '100%'}} src={require('../assets/imgs/myConnect/paperProt.gif')} alt="a gif showing a user flipping through the components of the paper prototype"></img>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-          
-        </section>
-        <section className="scope-section">
-          <div className="section-container">
-            <div className="section-container-inner">
-              <div className="summary-box">
-                <h2 className="summary-header">High-Fidelity Prototype</h2>
-                <div className="summary-description">
-                  <p>
-                    Once we understood our designs basic functions and UX we created a <span style={{fontWeight: 'bold'}}>High-Fidelity Prototype</span> to be able to show our stakeholders what interacting with our design would actually be like           
+                    <span style={{fontWeight: 'bold'}}>Assets and UI Elements:</span> We emulates the silhouette style we were inspired by and used playing card UI elements to create a game-like atmosphere to tie into the users' mental models of game playing.            
                   </p>
                 </div>
               </div>
@@ -306,7 +285,7 @@ const Story = () => {
                   <div className="asset-frame" style={{overflow: 'hidden'}}>
                     <div>
                       <div>
-                        <img style={{width: '100%'}} src={require('../assets/imgs/myConnect/hifiOverview.png')} alt="a flowchart of all of the components of our digital prototype"></img>
+                        <img style={{width: '100%'}} src={require('../assets/imgs/story/contentSample.png')} alt="a sample of the UI assets including the playing cards, some characters, and some scenery"></img>
                       </div>
                     </div>
                   </div>
@@ -318,138 +297,134 @@ const Story = () => {
         
           
         </section>
-
-        <div className="overview-container">
-          <div className="section-title">
-            <h2 className="section-title-text">Final Product</h2>
-          </div>
-          <div className="overview-content-box">
-            <div className="overview-big-box">
-              <h2 className="overview-big-text">
-                The Final Product
-              </h2>
-            </div>
-            <div className="overview-big-box">
-              <div className="overview-small-content">
-                <div>
+        <section className="scope-section">
+          <div className="section-container">
+            <div className="section-container-inner">
+              <div className="summary-box">
+                <h2 className="summary-header">The UX</h2>
+                <div className="summary-description">
                   <p>
-                    The High-Fidelity Prototype
+                    Users first begin selecting the elements of their story while these selections are projected in an animation in real time for the entire room to see. A select and confirm two-step interaction allows users to change their selection before submitting.          
                   </p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div className="picture-section-container">
+        
+          <div className="Assets__ScrollContainer">
+            <div className="Assets__ScrollCrop">
+              <div className="Assets__Wrapper">
+                <div className="Assets__AssetGrid">
+              
+                  <div className="asset-grid-item2-2">
+                  
+                    <div className="Asset-sc" style={{display: 'flex', width: '100%'}}>
+                      <div style={{margin: 'auto', width: '100%'}}>
+                        <div className="Asset__FrameWrapper">
+                          <div className="image-wrapper">
+                            <img aria-hidden="true"  className="asset-multi-img" src={require('../assets/imgs/story/installationui.gif')} alt="a gif showing the users interactions for creating a story" >
+                            </img>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div className="asset-grid-item2-2">
+                  
+                    <div className="Asset-sc" style={{margin: 'auto'}}>
+                      <div>
+                        <div className="Asset__FrameWrapper">
+                          <div className="image-wrapper" >
+                            <img aria-hidden="true"  className="asset-multi-img" src={require('../assets/imgs/story/uidisplay2.png')} alt="a still of an animation from the project" >
+                            </img>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
                   
                   
+                  
+                
                 </div>
               </div>
             </div>
+                
           </div>
         </div>
+        
+          
+        </section>
+
         <section className="scope-section">
           <div className="section-container">
-            
-            <div className="picture-section-container">
-                <div className="asset-grid">
-                            <div className="summary-box">
-                            <h2 className="summary-header">Onboarding</h2>
-                            <div className="summary-description">
-                              <p>
-                                We designed an system that allows users to establish security questions in lieu of providing personal information. Because our users were tired of getting emails and afraid to share personal information this solution could allow a backdoor if they forget their password.          
-                              </p>
-                            </div>
-                          </div>
-                            <div>
-                                <img style={{width: '100%', marginBottom: '6rem'}} src={require('../assets/imgs/myConnect/profCreation.png')} alt="a screenshot of the profile creation page with security questions"></img>
-                            </div>
-                           
-                            <div className="summary-box">
-                              <h2 className="summary-header">Quick Tutorial</h2>
-                              <div className="summary-description">
-                                <p>
-                                The overlay shows new users how the system works. This will alleviate some of the stress of learning a new system that our participants expressed. We also would have this in the help section.         
-                                </p>
-                              </div>
-                            </div>
-                            <div>
-                                <img style={{width: '100%', marginBottom: '6rem'}} src={require('../assets/imgs/myConnect/gettingStartedOverlay.png')} alt="this shows the app's home screen greyed out with labels indicating the function of buttons"></img>
-                            </div>
-
-                            <div className="summary-box">
-                              <h2 className="summary-header">Finding Your People</h2>
-                              <div className="summary-description">
-                                <p>
-                                  One of the main pages allows users to find events to attend based on their interests         
-                                </p>
-                              </div>
-                            </div>
-                            <div>
-                                <img style={{width: '100%', marginBottom: '6rem'}} src={require('../assets/imgs/myConnect/eventPage.png')} alt="a showcase of the UI for hosting and participating in live meetings"></img>
-                            </div>
-
-                            <div className="summary-box">
-                              <h2 className="summary-header">Creating Groups</h2>
-                              <div className="summary-description">
-                                <p>
-                                  Users can also create groups through a touch/click to edit popup UI. Many of our interviewees expressed that they would like to have groups for just their family as well as local organizations         
-                                </p>
-                              </div>
-                            </div>
-                            <div>
-                                <img style={{width: '100%', marginBottom: '6rem'}} src={require('../assets/imgs/myConnect/groupCreation.png')} alt="a screenshot showing the group creation UI"></img>
-                            </div>
-
-                            <div className="summary-box">
-                              <h2 className="summary-header">MicroInteraction</h2>
-                              <div className="summary-description">
-                                <p>
-                                  When creating groups new members can be dynamically added with one click. These small interactions increase the convenience of our design.       
-                                </p>
-                              </div>
-                            </div>
-                            <div>
-                                <img style={{width: '100%', marginBottom: '6rem'}} src={require('../assets/imgs/myConnect/directaddgroup.gif')} alt="a gif showing the UI interaction of adding group members"></img>
-                            </div>
-
-                            <div className="summary-box">
-                              <h2 className="summary-header">Group Pages</h2>
-                              <div className="summary-description">
-                                <p>
-                                  Once created, users can see the events that their group is hosting or set to attend and any post that may have been made by group members on that group's unique page          
-                                </p>
-                              </div>
-                            </div>
-                            <div>
-                                <img style={{width: '100%', marginBottom: '6rem'}} src={require('../assets/imgs/myConnect/groupInfo.png')} alt="a screenshot of the group page UI with information about group activity"></img>
-                            </div>
-
-                            <div className="summary-box">
-                              <h2 className="summary-header">MicroInteractions</h2>
-                              <div className="summary-description">
-                                <p>
-                                  Users are able to share events with their groups or individuals directly through just a few clicks by sending them in a dynamically opened chat window.       
-                                </p>
-                              </div>
-                            </div>
-                            <div>
-                                <img style={{width: '100%', marginBottom: '6rem'}} src={require('../assets/imgs/myConnect/share.gif')} alt="a gif showing the process of sharing events to the chat UI"></img>
-                            </div>
-                            <div className="summary-box">
-                              <h2 className="summary-header">MicroInteractions</h2>
-                              <div className="summary-description">
-                                <p>
-                                  When users join a group that group is then highlighted on their home page in their 'my communities' section      
-                                </p>
-                              </div>
-                            </div>
-                            <div>
-                                <img style={{width: '100%', marginBottom: '6rem'}} src={require('../assets/imgs/myConnect/joinedhighlight.gif')} alt="a gif the change in UI affected by joining a group: it is shown in greater contrast to other elements"></img>
-                            </div>
-
-                            
-
-                            
+            <div className="section-container-inner">
+              <div className="summary-box">
+                <h2 className="summary-header">The Installation</h2>
+                <div className="summary-description">
+                  <p>
+                    We installed out project in Tour Montparnasse and invited people to come and play with it         
+                  </p>
                 </div>
-                
+              </div>
+              
             </div>
           </div>
+          <div className="picture-section-container">
+        
+          <div className="Assets__ScrollContainer">
+            <div className="Assets__ScrollCrop">
+              <div className="Assets__Wrapper">
+                <div className="Assets__AssetGrid">
+              
+                  <div className="asset-grid-item2-2">
+                  
+                    <div className="Asset-sc" style={{display: 'flex', width: '100%'}}>
+                      <div style={{margin: 'auto', width: '100%'}}>
+                        <div className="Asset__FrameWrapper">
+                          <div className="image-wrapper">
+                            <img aria-hidden="true"  className="asset-multi-img" src={require('../assets/imgs/story/showcase1.gif')} alt="a gif showing someone playing with our installation and taking a photo" >
+                            </img>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div className="asset-grid-item2-2">
+                  
+                    <div className="Asset-sc" style={{margin: 'auto'}}>
+                      <div>
+                        <div className="Asset__FrameWrapper">
+                          <div className="image-wrapper" >
+                            <img aria-hidden="true"  className="asset-multi-img" src={require('../assets/imgs/story/showcase2.gif')} alt="a gif showing two people using the isntallation" >
+                            </img>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+                  
+                  
+                
+                </div>
+              </div>
+            </div>
+                
+          </div>
+        </div>
+        
+          
         </section>
+
+        
+        
         
 
         
@@ -470,7 +445,7 @@ const Story = () => {
               <div className="overview-small-content">
                 <div>
                   <p>
-                  This project helped me to understand a lot about the UX design process and how to take an idea and test it out. I think we still would need to test out this product with more seniors and people of all ages to understand if it is useable, learnable, and desirable. Overall I think we made a product with the potential to really help people stay connected and find new and interesting things to do that is approachable for seniors.
+                    This project was a great learning experience. I really benefited from working with people who have such a diverse range of skills and experiences. We were able to communicate across language barriers and skill sets. We were given a week to construct and install the project so it was an exercise in scale and time management. In the end, we created a functional prof of concept. In the future, we will extend the project beyond the MVP. We hope the project can scale up and be available to travel so it can be seen elsewhere.
                   </p>
                   
                   
